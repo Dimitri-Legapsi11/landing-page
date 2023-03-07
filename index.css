@@ -1,15 +1,14 @@
-
-html{
+html {
     margin: 0;
     min-height: 100%;
 }
 
-body{
+body {
     margin: 0;
 }
 
 
-.header{
+.header {
     width: 100%;
     height: 5em;
     margin-bottom: 0;
@@ -23,7 +22,7 @@ body{
     z-index: 1;
 }
 
-.left-side{
+.left-side {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,7 +31,7 @@ body{
 }
 
 
-.logo{
+.logo {
     margin: 1em auto;
     display: flex;
     flex-direction: row;
@@ -42,7 +41,7 @@ body{
     text-decoration: none;
 }
 
-.page-title{
+.page-title {
     color: yellow;
     text-transform: uppercase;
     font-size: large;
@@ -51,24 +50,24 @@ body{
     letter-spacing: 5px;
 }
 
-.dragon-ball{
+.dragon-ball {
     display: flex;
     align-items: center;
     margin-left: 1em;
 }
 
-.dragon-ball img{
+.dragon-ball img {
     width: 3em;
     border-radius: 2em;
 }
 
-.right-side{
+.right-side {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.links{
+.links {
     width: 20em;
     display: flex;
     justify-content: space-between;
@@ -76,7 +75,7 @@ body{
     margin-right: 10px;
 }
 
-.right-side a{
+.right-side a {
     color: yellow;
     font-family: "kawashiro";
     font-size: large;
@@ -84,30 +83,31 @@ body{
     text-decoration: none;
 }
 
-.right-side a:hover{
+.right-side a:hover {
     color: blue;
     text-shadow: 0 0 1.5em white;
 }
 
-.container1background{
+.container1background {
     background-image: url("https://images2.alphacoders.com/100/1003880.png");
+    background-attachment: fixed;
     height: 1000px;
     background-size: cover;
 }
 
-.container1{
+.container1 {
     width: 100%;
-    height: 40em;
-    margin: 0 auto;
-    padding-top: 22.5em;
+    height: 100%;
+    border-radius: 1.5em;
+    margin: 0 auto 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     background-color: rgba(25, 36, 72, 0.7);
 }
 
-.container1Left{
+.container1Left {
     color: rgb(234, 105, 13);
     text-shadow: 0 0 1.5em rgb(255, 255, 255);
     width: 40vw;
@@ -117,24 +117,24 @@ body{
     align-content: center;
 }
 
-.welcome{
+.welcome {
     font-size: 2.2em;
     text-align: center;
     font-family: "kawashiro";
 }
 
-.description{
+.description {
     margin-top: 1em;
     font-size: 1.3em;
     line-height: 1.5em;
     text-align: left;
 }
 
-.sign-up{
+.sign-up {
     margin-top: 25px;
 }
 
-.sign-up button{
+.sign-up button {
     color: white;
     border: 5px solid white;
     border-radius: 20px;
@@ -160,7 +160,7 @@ button:hover {
     transition: .5s ease;
 }
 
-.container1Right{
+.container1Right {
     width: 50vw;
     margin: 1em 0;
     display: flex;
@@ -168,19 +168,18 @@ button:hover {
     align-items: center;
 }
 
-.container1Right img{
+.container1Right img {
     width: 40vw;
-    height: 60vh;
     border-radius: 15px;
 }
 
 
-.container2background{
- background: linear-gradient(#647DEE, #7F53AC);
- box-shadow: 0 0 1em black;
+.container2background {
+    background: linear-gradient(#647DEE, #7F53AC);
+    box-shadow: 0 0 1em black;
 }
 
-.container2heading{
+.container2heading {
     font-size: 2.5em;
     font-weight: 800;
     text-align: center;
@@ -189,22 +188,22 @@ button:hover {
     font-family: "kamishirasawa";
 }
 
-.container2content{
+.container2content {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0 2em;
+    margin: auto 2em;
     flex-wrap: wrap;
 }
 
-.container2content .container{
+.container2content .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 1 1 0;
 }
 
-.container2 img{
+.container2 img {
     width: 10em;
     height: 15em;
     object-fit: cover;
@@ -215,7 +214,7 @@ button:hover {
     margin: 3em -1em -1em -1em;
 }
 
-.container2 img:hover{
+.container2 img:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
@@ -223,7 +222,7 @@ button:hover {
 }
 
 
-.subtext{
+.subtext {
     text-align: center;
     color: white;
     font-size: 1.7em;
@@ -231,19 +230,19 @@ button:hover {
     font-family: "kamishirasawa";
 }
 
-.container2 a{
+.container2 a {
     text-decoration: none;
-    text-shadow:  0 0 0.7em white;
+    text-shadow: 0 0 0.7em white;
 }
 
-.subtext:hover{
+.subtext:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     transition: .5s ease;
 }
 
-.container3{
+.container3 {
     background-image: url("https://i.imgflip.com/ngwmz.jpg");
     background-size: cover;
     object-fit: cover;
@@ -255,7 +254,7 @@ button:hover {
 }
 
 
-.container3text{
+.container3text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -265,20 +264,20 @@ button:hover {
     margin: 11em 0;
 }
 
-.quote{
+.quote {
     font-size: 5em;
     text-align: left;
     font-style: italic;
     margin: auto 2em;
 }
 
-.by{
+.by {
     text-align: center;
     margin-top: 2em;
     font-size: 3em;
 }
 
-.container4background{
+.container4background {
     background: linear-gradient(#647DEE, #7F53AC);
     box-shadow: 0 0 1em black;
     display: flex;
@@ -287,7 +286,7 @@ button:hover {
     padding: 3em 0;
 }
 
-.container4content{
+.container4content {
     background: rgba(4, 15, 40, 0.7);
     width: 60em;
     padding: 2em 0;
@@ -298,7 +297,7 @@ button:hover {
     margin: 0 3em;
 }
 
-.container4text{
+.container4text {
     color: white;
     display: flex;
     flex-direction: column;
@@ -307,25 +306,25 @@ button:hover {
     line-height: 1.7em;
 }
 
-.container4header{
+.container4header {
     font-size: 1.5em;
-    font-family: inherit ;
+    font-family: inherit;
     font-weight: 800;
 }
 
-.container4subtext{
+.container4subtext {
     margin: 2em auto;
     font-size: large;
 }
 
-.container4button{
+.container4button {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 5em 0 3em;
 }
 
-.container4button a{
+.container4button a {
     color: white;
     border: 0.15em solid white;
     background: linear-gradient(rgba(198, 104, 37, 0.5), rgba(10, 58, 122, 0.5));
@@ -336,7 +335,7 @@ button:hover {
     font-family: inherit;
 }
 
-.container4button a:hover{
+.container4button a:hover {
     background: linear-gradient(rgba(198, 104, 37, 0.8), rgba(10, 58, 122, 0.8));
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
@@ -344,13 +343,13 @@ button:hover {
     transition: 1s ease;
 }
 
-.footerContainer{
+.footerContainer {
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
-.footerBackground{
+.footerBackground {
     background-color: aqua;
     padding: 0.5em 0;
     box-shadow: 0 0 1em black;
@@ -360,7 +359,7 @@ button:hover {
     flex-direction: column;
 }
 
-.author{
+.author {
     color: blueviolet;
     text-align: center;
     font-size: 1em;
